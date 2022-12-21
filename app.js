@@ -15,7 +15,7 @@ function clock() {
     minute.style.transform = `rotate(${mdegree}deg)`;
 
     const hdegree = (gethour / 12) * 360;
-    hour``.style.transform = `rotate(${hdegree}deg)`;
+    hour.style.transform = `rotate(${hdegree}deg)`;
 }
 
 setInterval(clock,1000)
